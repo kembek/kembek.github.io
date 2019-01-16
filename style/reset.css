@@ -1,3 +1,4 @@
+
 /* --------------- reset.css --------------- */
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -23,10 +24,9 @@ table {
 td, td img {
 	vertical-align: top;		
 } 
-input, select, button, textarea {
-	
+input, select, button, textarea {	
 	margin: 0; 		
-	font-family: 'Open Sans', 'Noto Serif', 'Ms Serif', sans-serif;  
+	font-family: "Roboto", "Arial", sans-serif;       
 	font-size: 100%; 		
 	outline: none;
 }
@@ -70,32 +70,27 @@ html {
 	min-height:100%; 
 }
 
-
 body {
 	color: #606060;
 	text-align: left;
 	font-size: 1em;
-	font-family: 'Open Sans', 'Noto Serif', 'Ms Serif', sans-serif;    
+	font-family: "Roboto", "Arial", sans-serif;    
     font-weight: 300;
 	min-height:100%;
 }
 a, a:visited { 
-	color: #339933;
 	text-decoration: underline;
 }
 a:hover {
-	color: #339933;
 	text-decoration:none;
 }
 a:focus, a:active {
-	color: #339933;
 	text-decoration: underline;
 }
 h1, h2, h3, h4, h5, h6{
 	font-weight:normal;
 }
 img{
-
 	max-width:100%;
 }
 .clr{

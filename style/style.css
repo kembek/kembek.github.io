@@ -1,22 +1,10 @@
-.root {
-  margin: 10px auto;
-  width: 80%;
+#root {
+  height: 100vh;
 }
 
-.main-block {
-  align-items: center;
-  background-color: #b9b9b9;
-  display: flex;
-  justify-content: center;
-  height: 200px;
-  width: 200px;
-}
-
-.main-block-title {
-  color: tomato;
-  font-size: 1.5em;
-}
-
-.main-block-title:hover { 
-  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.4);
+.header-content,
+.main {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 10px;
 }

@@ -1,0 +1,87 @@
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 75%;
+  }
+  
+  .main a {
+    align-items: center;
+    display: flex;
+    filter: sepia(50%) brightness(80%) grayscale(20%);
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 3em;
+    justify-content: center;
+    line-height: 40px;
+    height: 60%;
+    text-decoration: none;
+    transition: all .5s;
+    width: 28%;
+  }
+  
+  .main a:hover {
+    box-shadow: 0 0 20px 10px rgba(24, 35, 75, .4);
+    border-radius: 5%;
+    filter: sepia(0%);
+    height: 65%;
+    transition: all .5s;
+    width: 30%;
+  }
+  
+  .block-html-css {
+    background: rgba(255, 255, 255, 1);
+    border: 6px solid rgba(24, 35, 75, 1);
+    color: rgba(0, 0, 0, 1);
+
+    font-weight: bold;
+  }
+  
+  .block-js {
+    background: rgba(18, 45, 79, 1);
+    border: 6px solid rgba(255, 243, 67, 1);
+    color: rgba(255, 243, 67, 1);
+
+    font-weight: bold;
+  }
+  
+  .block-react-js {
+    background: rgba(45, 45, 45, 1);
+    border: 6px solid rgba(96, 214, 247, 1);
+    color: rgba(96, 214, 247, 1);
+  
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 850px) {
+    .main {
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+    .main a[href*="pages"] {        
+        height: 30%;
+        text-decoration: none;
+        transition: all .5s;
+        width: 90%;
+      }
+
+      .main a[href*="pages"]:hover {
+        border-radius: 0;
+        height: 31%;
+        transition: all .5s;
+        width: 95%;
+      }
+  }
+
+  @media screen and (max-width: 585px) { 
+    .main a[href*="pages"] {        
+       font-size: 2em;
+       line-height: 25px;
+       height: 25%;
+      }  
+  }
+ 
