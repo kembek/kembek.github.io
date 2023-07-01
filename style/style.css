@@ -1,10 +1,67 @@
-#root {
-  height: 100vh;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-.header-content,
-.main {
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+  font-size: 1.6rem;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
   margin: 0 auto;
-  max-width: 900px;
-  padding: 0 10px;
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+}
+
+.my-contact-point-heading {
+  margin-top: 2.5rem;
+}
+
+.paragraph {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.nowrap-text {
+  white-space: nowrap;
+}
+
+.contact-point-list {
+  list-style: none;
+  display: flex;
+}
+
+.contact-point-item:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.link,
+.link:visited,
+.link:link {
+  display: inline-block;
+  color: #000;
+  cursor: pointer;
+  text-decoration: underline double rgb(255, 99, 71);
+  transition: all linear 0.125s;
+  font-weight: 500;
+}
+
+.link:hover {
+  transform: scale(1.01);
+  box-shadow: 0 5px 2px rgb(255, 99, 71, 0.3);
 }

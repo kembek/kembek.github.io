@@ -1,64 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kembek</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" href="assets/favicon.ico" sizes="any" />
+    <link rel="icon" href="assets/rocket.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="manifest" href="assets/site.webmanifest" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="style/index.css" />
-</head>
+  <body>
+    <div class="container">
+      <main>
+        <h1 class="heading">
+          Hi 👋👋👋, <span class="nowrap-text">I'm Beknazar</span>!
+        </h1>
+        <p class="paragraph">
+          I work as a Senior Software Engeenier 👨‍🦰 at EPAM. I am fond of reading
+          books 📚 and love listening to music 🎶. My favorite musicians are
+          John Newman, Mirbek Atabekov, DJ Alan Walker, DJ Marshmello, G-Eazy.
+        </p>
+        <p class="paragraph">
+          Also I like taking all sorts of IT challenges 🏋️‍♂️ like WesBos'
+          <a
+            class="link"
+            href="https://github.com/kembek/JavaScript30"
+            target="_blank"
+            rel="noopener noreferrer"
+            >JavaScript 30</a
+          >, WebDev's
+          <a
+            class="link"
+            href="https://codepen.io/collection/AEqazK"
+            target="_blank"
+            rel="noopener noreferrer"
+            >CSS Effects</a
+          >.
+        </p>
+        <p class="paragraph">
+          I'm sometimes a speaker in FrontSpot Asia community, some of the
+          topics I've presented are
+          <a
+            class="link"
+            href=" https://wearecommunity.io/events/reading-club-1-jedi-techniques/talks/12520"
+            target="_blank"
+            rel="noopener noreferrer"
+            >"Reading Club #1: Jedi Techniques"</a
+          >,
+          <a
+            class="link"
+            href="https://wearecommunity.io/events/js-talk-13/talks/9996"
+            target="_blank"
+            rel="noopener noreferrer"
+            >"Редко используемые возможности npm (Rarely used npm features)"</a
+          >,
+          <a
+            class="link"
+            href="https://wearecommunity.io/events/javascriptum-3-0-bishkek-offline/talks/48910"
+            target="_blank"
+            rel="noopener noreferrer"
+            >"React Deep Dive"</a
+          >,
+          <a
+            class="link"
+            href="https://wearecommunity.io/events/net-meetup/talks/50709"
+            target="_blank"
+            rel="noopener noreferrer"
+            >"Git: Совместная работа (Git: Collaboration)"</a
+          >
+          and other topics can be seen here in
+          <a
+            class="link"
+            href="https://wearecommunity.io/users/beknazar-kemelov"
+            target="_blank"
+            rel="noopener noreferrer"
+            >my WeAreCommunity profile</a
+          >.
+        </p>
 
-<body>
-  <div id="root">
-    <header class="header">
-      <div class="header-content">
-        <div class="header-logo">
-          <span class="header-logo-text">Hello world!<span id="underscore">_</span>
-          </span>
-        </div>
-        <nav class="header-nav">
-          <ul>
-            <li>
-              <a href="#Main" class="nav-active">Main</a>
-            </li>
-            <li>
-              <a href="#MyWorks">My works</a>
-            </li>
-            <li>
-              <a href="#About">About</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <main class="main">
-      <a href="pages/htmlCss.html" class="block-html-css" title="HTML+CSS page">
-        <p>HTML</p>
-        <p>+</p>
-        <p>CSS</p>
-      </a>
-      <a href="#pages/js" class="block-js" title="js page">JS</a>
-      <a href="#pages/reactJs" class="block-react-js" title="ReactJs page">ReactJS</a>
-    </main>
-    <footer class="footer">
-      <span>
-        Mail:&nbsp;
-        <a href="mailto:zevs.312.777@gmail.com">zevs.312.777@gmail.com</a>
-      </span>
-    </footer>
-  </div>
-
-  <script>
-    const underscore = document.getElementById('underscore');
-    underscore.style.cssText = "transition: all .1s;";
-
-    setInterval(function () {
-      const getStyleUnderscore = getComputedStyle(underscore);      
-      underscore.style.display = getStyleUnderscore.display === "none" ? "inline" : "none";
-    }, 500);
-  </script>
-</body>
-
+        <h3 class="heading my-contact-point-heading">My contact points:</h3>
+        <ul class="contact-point-list">
+          <li class="contact-point-item">
+            <a
+              class="link"
+              href="mailto:zevs.312.777@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Mail to me</a
+            >
+          </li>
+          <li class="contact-point-item">
+            <a
+              class="link"
+              href="https://github.com/kembek"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </li>
+          <li class="contact-point-item">
+            <a
+              class="link"
+              href="https://www.linkedin.com/in/beknazar-kemelov/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn</a
+            >
+          </li>
+          <li class="contact-point-item">
+            <a
+              class="link"
+              href="https://www.instagram.com/kemelov.beknazar/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </li>
+        </ul>
+      </main>
+    </div>
+  </body>
 </html>
