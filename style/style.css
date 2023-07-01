@@ -53,15 +53,13 @@ body {
 .link,
 .link:visited,
 .link:link {
-  display: inline-block;
   color: #000;
   cursor: pointer;
-  text-decoration: underline double rgb(255, 99, 71);
+  text-decoration: underline solid rgb(255, 99, 71);
   transition: all linear 0.125s;
   font-weight: 500;
 }
 
 .link:hover {
-  transform: scale(1.01);
   box-shadow: 0 5px 2px rgb(255, 99, 71, 0.3);
 }
